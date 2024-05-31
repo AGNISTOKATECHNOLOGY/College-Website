@@ -1,0 +1,219 @@
+body {
+    padding-top: 1rem;
+    font-family: Arial, sans-serif;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.top {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -6rem;
+    margin-right: -6rem;
+}
+
+.logo1 {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.name {
+    padding: 1rem;
+}
+
+.logo2 {
+    padding: 0 1rem 1rem 1rem;
+    float: right;
+}
+
+.navbar {
+    margin-left: -6rem;
+    margin-right: -6rem;
+}
+
+#navbarNavDropdown {
+    justify-content: space-around;
+}
+
+.modal-btn {
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caro-outer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.caro {
+    width: 100%;
+}
+
+.container-fluid {
+    margin-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.head {
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    color: white;
+}
+
+.scrollbox {
+    overflow: scroll;
+    height: 280px;
+    margin-bottom: 0rem;
+    overflow-x: hidden;
+}
+
+.scrollbox li {
+    margin-top: 0.5rem;
+}
+
+.scrollbox a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-cols button {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.section li {
+    margin-top: 0.5rem;
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+}
+
+.caro2-outer {
+    display: flex;
+    justify-content: center;
+}
+
+.caro2 {
+    height: 280px;
+}
+
+.row {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+.row>* {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.px-2rem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.mx-2rem{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.pr-0-75rem {
+    padding-right: 0.75rem;
+}
+
+.pl-0-75rem {
+    padding-left: 0.75rem;
+}
+
+ul {
+    padding-left: 0rem;
+}
+
+footer {
+    margin-top: 3rem;
+    background-color: lightgray;
+    color: black; 
+    padding: 1rem 6rem;
+}
+
+.footer-links a { 
+    color: black; 
+    text-decoration: none; 
+    margin-right: 1rem;
+}
+
+#loginDropdown {
+    margin-left: 0.5rem !important;
+}
+
+#loginDropdownMenu {
+    left: auto;
+    right: 0;
+}
+
+@media (max-width: 978px) {
+    body {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
+
+    .top {
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+    }
+
+    .navbar {
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+
+    .row>* {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .container-fluid {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    
+    .px-2rem {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+
+    .mx-2rem {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .pr-0-75rem {
+        padding-right: 0.125rem;
+    }
+    
+    .pl-0-75rem {
+        padding-left: 0.125rem;
+    }
+
+    footer {
+        padding: 1rem 0.25rem;
+    }
+
+    #loginDropdown {
+        margin-top: 0.5rem !important;
+        margin-left: 0rem !important;
+    }
+
+    #loginDropdownMenu {
+        left: 0;
+        right: auto;
+    }
+}
